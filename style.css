@@ -51,19 +51,12 @@
 
 }
 
-
-
-
-
 .body {
   position: relative;
 }
 
 .background-wrapper {
-  background-image: url(img/291978655_139076968770478_5624724748661053862_n.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
+  background: bottom / cover no-repeat url(img/291978655_139076968770478_5624724748661053862_n.jpg);
 }
 
 .container {
@@ -86,8 +79,7 @@
   width: 90%;
   padding: 20px;
   border: none;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px 0 0 10px;
   font-size: 20px;
   margin-top: 40px;
   outline: none;
@@ -100,10 +92,7 @@
 
 .main-button {
   width: 10%;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-radius: 0 10px 10px 0;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
 }
@@ -144,20 +133,16 @@
 }
 
 .checkbox-close {
-  background-image: url(img/header__burger-close.svg);
+  background:  url(img/header__burger-close.svg);
   width: 20px;
   height: 20px;
   border: none;
-  background-repeat: no-repeat;
-  background-color: transparent;
   cursor: pointer;
   color: #fff;
-
 }
 
 .cancel-close {
   background-image: none;
-
 }
 
 .cancel-close,
